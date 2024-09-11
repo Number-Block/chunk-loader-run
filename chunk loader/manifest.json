@@ -1,0 +1,26 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "CChunk Loader behavior pack",
+        "name": "CChunk Loader Behavior Pack",
+        "uuid": "1d5eda88-00f7-4440-99d1-e62d43d9284a",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 20, 70]
+    },
+    "modules": [
+        {
+            "description": "",
+            "type": "script",
+            "language": "javascript",
+            "entry": "scripts/index.js",
+            "uuid": "eaf533e7-38dd-45b4-a29a-ad033a005be6",
+            "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.12.0-beta"
+        }
+    ]
+}
